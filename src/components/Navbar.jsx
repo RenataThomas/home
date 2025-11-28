@@ -40,7 +40,7 @@ const Navbar = () => {
           <li className="max-md:hidden ">
             <Link
               className=" transition-all duration-1000 hover:underline"
-              to="/luizevictoria/"
+              to="/"
               onClick={scrollToTop}
             >
               Home
@@ -49,14 +49,14 @@ const Navbar = () => {
           <li className="max-md:hidden ">
             <Link
               className="hover:underline"
-              to="/luizevictoria/viagem"
+              to="/viagem"
               onClick={scrollToTop}
             >
               Dicas de Viagem
             </Link>
           </li>
           <div className=" h-full">
-            <Link to="/luizevictoria/" onClick={scrollToTop}>
+            <Link to="/" onClick={scrollToTop}>
               <img
                 src={Logo}
                 alt="Logo do Casamento"
@@ -68,17 +68,13 @@ const Navbar = () => {
             <Link
               onClick={scrollToTop}
               className="hover:underline"
-              to="/luizevictoria/presentes"
+              to="/presentes"
             >
               Lista de Presentes
             </Link>
           </li>
           <li className="max-md:hidden ">
-            <Link
-              onClick={scrollToTop}
-              className="hover:underline"
-              to="/luizevictoria/rsvp"
-            >
+            <Link onClick={scrollToTop} className="hover:underline" to="/rsvp">
               RSVP
             </Link>
           </li>
@@ -98,32 +94,24 @@ const Navbar = () => {
       <div className=" w-full -top-2">
         <div className={(!navMenu ? ' hidden' : ' md:hidden') + ' px-4 py-1'}>
           <div className=" flex flex-col gap-1 items-end">
-            <Link
-              onClick={scrollToTop}
-              className="hover:underline"
-              to="/luizevictoria/"
-            >
+            <Link onClick={scrollToTop} className="hover:underline" to="/">
               Home
             </Link>
             <Link
               onClick={scrollToTop}
               className="hover:underline"
-              to="/luizevictoria/viagem"
+              to="/viagem"
             >
               Dicas de Viagem
             </Link>
             <Link
               onClick={scrollToTop}
               className="hover:underline"
-              to="/luizevictoria/presentes"
+              to="/presentes"
             >
               Lista de Presentes
             </Link>
-            <Link
-              onClick={scrollToTop}
-              className="hover:underline"
-              to="/luizevictoria/rsvp"
-            >
+            <Link onClick={scrollToTop} className="hover:underline" to="/rsvp">
               RSVP
             </Link>
           </div>

@@ -13,27 +13,27 @@ import ObrigadoPage from './pages/ObrigadoPage.jsx';
 
 const router = createBrowserRouter([
   {
-    path: '/luizevictoria/',
+    path: '/',
     element: <MainLayout />,
     children: [
       {
-        path: '/luizevictoria/',
+        path: '/',
         element: <Home />,
       },
       {
-        path: '/luizevictoria/rsvp',
+        path: '/rsvp',
         element: <Presenca />,
       },
       {
-        path: '/luizevictoria/presentes',
+        path: '/presentes',
         element: <Presentes />,
       },
       {
-        path: '/luizevictoria/viagem',
+        path: '/viagem',
         element: <Viagem />,
       },
       {
-        path: '/luizevictoria/obrigado',
+        path: '/obrigado',
         element: <ObrigadoPage />,
       },
     ],
