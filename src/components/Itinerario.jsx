@@ -52,7 +52,7 @@ const Itinerario = () => {
                 Entrada no Salão
               </h4>
               <p className="mb-3 text-neutral-300 ">
-                Os convidados será direcionados ao salão, daremos início aos
+                Os convidados serão direcionados ao salão, daremos início aos
                 serviços de Buffet e de bebidas. Hora de forrar o estômago pra
                 aguentar o que vem na sequência.
               </p>
