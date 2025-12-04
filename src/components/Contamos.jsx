@@ -7,7 +7,7 @@ const Contamos = () => {
   return (
     <>
       <div className=" flex flex-col items-center justify-center">
-        <div className="bg-[#7A7E5E] w-[90%] max-w-[1400px] h-64 md:h-96 text-white">
+        <div className="bg-[#0B172C] w-[90%] max-w-[1400px] h-64 md:h-96 text-white">
           <h1 className="font-titleFont py-5 md:py-14 xl:py-10 text-center text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
             Contamos com você!
           </h1>
@@ -24,9 +24,9 @@ const Contamos = () => {
         </div>
         <Link
           className="w-[100%] p-6 items-center flex justify-center"
-          to="/luizevictoria/rsvp"
+          to="/home/rsvp"
         >
-          <button className="hover:underline w-32 md:w-40 lg:w-48 lg:h-20 h-16 rounded-2xl text-white bg-[#7A7E5E] font-menuFont text-center text-lg md:text-xl lg:text-2xl xl:text-3xl">
+          <button className="hover:underline w-32 md:w-40 lg:w-48 lg:h-20 h-16 rounded-2xl text-white bg-[#0B172C] font-menuFont text-center text-lg md:text-xl lg:text-2xl xl:text-3xl">
             Confirmar Presença
           </button>
         </Link>

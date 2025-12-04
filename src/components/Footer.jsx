@@ -8,18 +8,18 @@ const Footer = () => {
   };
 
   return (
-    <div className="w-[100%] bg-[#7A7E5E] h-16 flex justify-around items-center z-2 text-white font-menuFont">
-      <div className="flex flex-col items-center">
+    <div className="w-[100%] bg-[#0B172C] h-16 flex justify-around items-center z-2 text-white font-menuFont">
+      {/* <div className="flex flex-col items-center">
         <HiSelector size={20} className="inline" />
         <h2 className=" text-xs sm:text-sm md:text-base">Criado pelo noivo</h2>
-      </div>
+      </div> */}
       <button className="flex flex-col items-center" onClick={scrollToTop}>
         <HiUpload size={20} className="inline" />
         <h2 className=" text-xs sm:text-sm md:text-base">Voltar ao Topo</h2>
       </button>
       <Link
         className="flex flex-col items-center"
-        to="https://wa.me/62991184403"
+        to="https://wa.me/19983010320"
         target="_blank"
       >
         <HiOutlineChat size={20} className="inline" />

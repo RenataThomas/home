@@ -6,14 +6,10 @@ import Viagem05 from '../assets/viagem/viagem05.webp';
 
 import Hotel01 from '../assets/viagem/hotel01.webp';
 import Hotel02 from '../assets/viagem/hotel02.webp';
+import Hotel03 from '../assets/viagem/hotel03.webp';
 
 import Salao01 from '../assets/viagem/salao01.webp';
 import Salao02 from '../assets/viagem/salao02.webp';
-import Salao03 from '../assets/viagem/salao03.webp';
-import Salao04 from '../assets/viagem/salao04.webp';
-import Salao05 from '../assets/viagem/salao05.webp';
-import Salao06 from '../assets/viagem/salao06.webp';
-import Salao07 from '../assets/viagem/salao07.webp';
 
 import Restaurante01 from '../assets/viagem/restaurante01.webp';
 import Restaurante02 from '../assets/viagem/restaurante02.webp';
@@ -21,6 +17,7 @@ import Restaurante03 from '../assets/viagem/restaurante03.webp';
 import Restaurante04 from '../assets/viagem/restaurante04.webp';
 import Restaurante05 from '../assets/viagem/restaurante05.webp';
 import Restaurante06 from '../assets/viagem/restaurante06.webp';
+import Restaurante07 from '../assets/viagem/restaurante07.webp';
 
 import Bar01 from '../assets/viagem/bar01.webp';
 import Bar02 from '../assets/viagem/bar02.webp';
@@ -37,14 +34,6 @@ export const tripData = [
     imagem: Viagem01,
     saibamais: 'https://www.hopihari.com.br/',
     local: 'https://maps.app.goo.gl/1jgeb9dj9gMcWx9p8',
-  },
-  {
-    titulo: `Boituva`,
-    descricao: `Boituva, a famosa capital do paraquedismo. Para os mais radicais: a cidade conta com várias empresas especializadas em paraquedismo e balonismo. Já fomos, sobrevimemos e recomendamos rs.`,
-    imagem: Viagem02,
-    saibamais:
-      'https://www.tripadvisor.com.br/Attractions-g2053368-Activities-Boituva_State_of_Sao_Paulo.html',
-    local: 'https://maps.app.goo.gl/DCZwYKLgqhSwHXyY7',
   },
   {
     titulo: `Holambra`,
@@ -74,80 +63,49 @@ export const tripData = [
 
 export const hotelData = [
   {
-    titulo: `Vinhedo Plaza Hotel`,
-    descricao: `Localizado a 2,5Km do Alto das Palmeiras onde será realizada a cerimônia do casamento. Conseguimos um desconto para nossos convidados basta informar que vão ao`,
-    cupom: '"Casamento Victoria e Luiz"',
+    titulo: `NoHotel Premium`,
+    descricao: `Localizado a 4,3Km do Madero Eventos onde será realizada a cerimônia do casamento. Conseguimos um desconto para nossos convidados basta informar que vão ao`,
+    cupom: '"xxxxxxx"',
     imagem: Hotel01,
-    saibamais: 'https://www.vinhedoplazahotel.com.br/',
-    local: 'https://maps.app.goo.gl/rbzG6FvVQncn249E7',
+    saibamais: 'https://nohotel.com.br/americana',
+    local: 'https://maps.app.goo.gl/ZuzHhEapE9CRF36G9',
   },
   {
-    titulo: `Hotel Intercity Vinhedo`,
-    descricao: `Localizado a 7,3Km do Alto das Palmeiras onde será realizada a cerimônia do casamento. Conseguimos um cupom de desconto para nossos convidados, que pode ser usado no site do hotel:`,
-    cupom: '"LUIZEVICTORIA"',
+    titulo: `Hotel Ibis Americana`,
+    descricao: `Localizado a 6,6Km do Madero Eventos onde será realizada a cerimônia do casamento. Conseguimos um cupom de desconto para nossos convidados, que pode ser usado no site do hotel:`,
+    cupom: '"xxxxxxx"',
     imagem: Hotel02,
-    saibamais:
-      'https://www.intercityhoteis.com.br/hotel-vinhedo/hotel-intercity-vinhedo/54/?gad_source=1&gclid=CjwKCAjwoa2xBhACEiwA1sb1BPGDSyYexegPXYhZ1C4jiYVqlIga0Ht8lOEvEetph3aV-rZT8njDZxoCke4QAvD_BwE',
-    local: 'https://maps.app.goo.gl/3C2jiKYfUXi3Gyn37',
+    saibamais: 'https://all.accor.com/hotel/9952/index.en.shtml',
+    local: 'https://maps.app.goo.gl/JQG8YhKNQw4JXgek6',
+  },
+  {
+    titulo: `Hotel Florença`,
+    descricao: `Localizado a 9,2Km do Madero Eventos onde será realizada a cerimônia do casamento. Conseguimos um desconto para nossos convidados basta informar que vão ao`,
+    cupom: '"xxxxxxx"',
+    imagem: Hotel03,
+    saibamais: 'https://www.hotelflorenca.com.br/',
+    local: 'https://maps.app.goo.gl/dS7c1rxG8y1NBxeSA',
   },
 ];
 
 export const beautyData = [
   {
-    titulo: `De Arte Centro Estético`,
-    descricao: `Localizado em Vinhedo. Indicação de conhecidos. Confira o trabalho no @dearte_centroestetico.`,
+    titulo: `Allysum Beleza e Saúde`,
+    descricao: `Localizado em Americana. Indicação de conhecidos. Confira o trabalho no @alyssumcabeleireiros.`,
     cupom: '',
     imagem: Salao01,
-    saibamais: 'https://www.instagram.com/dearte_centroestetico/',
-    local: 'https://maps.app.goo.gl/zHGkh4CTgcqpwiJ56',
+    saibamais: 'https://www.alyssum.com.br/',
+    local:
+      'https://www.google.com/maps/place/Alyssum+Cabeleireiros/@-22.7437136,-47.3405987,17z/data=!3m1!4b1!4m6!3m5!1s0x94c89bd12b88ebeb:0x13b53ea9cda794c1!8m2!3d-22.7437186!4d-47.3380238!16s%2Fg%2F11b6_nzcdk?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D',
   },
   {
-    titulo: `Flávio & Claudia Cabelos`,
-    descricao: `Localizado em Vinhedo. Indicação de conhecidos. Confira o trabalho no @flavioeclaudiacabelosvinhedo`,
+    titulo: `Lombardi Beleza e Estética`,
+    descricao: `Localizado em Americana. Indicação de conhecidos. Confira o trabalho no @lombardibelezaestetica`,
     cupom: '',
     imagem: Salao02,
-    saibamais: 'https://www.instagram.com/flavioeclaudiacabelosvinhedo/',
-    local: 'https://maps.app.goo.gl/Zof2vp4K9QKV2mWs8',
-  },
-  {
-    titulo: `A Francesa Salão de Beleza`,
-    descricao: `Localizado em Vinhedo. Indicação de conhecidos. Confira o trabalho no @afrancesavinhedo`,
-    cupom: '',
-    imagem: Salao03,
-    saibamais: 'https://www.instagram.com/afrancesavinhedo/',
-    local: 'https://maps.app.goo.gl/SZ4WDGhFLkAFYbiVA',
-  },
-  {
-    titulo: `Sabrina Fraissat`,
-    descricao: `Localizado em Vinhedo. Indicação de conhecidos. Confira o trabalho no @sabrinafraissatsalaodebeleza`,
-    cupom: '',
-    imagem: Salao04,
-    saibamais: 'https://www.instagram.com/sabrinafraissatsalaodebeleza/',
-    local: 'https://maps.app.goo.gl/JQXpRKSGNQ7xMh5N9',
-  },
-  {
-    titulo: `Thamara Vialta Maquiagem`,
-    descricao: `Localizado em Campinas. Indicação da noiva. Confira o trabalho no @thamaravialta`,
-    cupom: '',
-    imagem: Salao05,
-    saibamais: 'https://www.instagram.com/thamaravialta/',
-    local: 'https://maps.app.goo.gl/EunEZGmX5VXtJXM8A',
-  },
-  {
-    titulo: `Mayara Belufe Cabelereira`,
-    descricao: `Localizado em Campinas. Indicação da noiva. Confira o trabalho no @mabelufehair`,
-    cupom: '',
-    imagem: Salao06,
-    saibamais: 'https://www.instagram.com/mabelufehair/',
-    local: 'https://maps.app.goo.gl/EunEZGmX5VXtJXM8A',
-  },
-  {
-    titulo: `Aguinaldo Hair by Andrea`,
-    descricao: `Localizado em Campinas. Indicação da noiva. Confira o trabalho no @byandrea_cabeloseequipe`,
-    cupom: '',
-    imagem: Salao07,
-    saibamais: 'https://www.instagram.com/byandrea_cabeloseequipe/',
-    local: 'https://maps.app.goo.gl/GwHyrzVjbEXYyQZw6',
+    saibamais: 'https://www.instagram.com/lombardibelezaestetica/',
+    local:
+      'https://www.google.com/maps?sca_esv=291655ba3e8774d2&biw=1920&bih=945&output=search&q=lombard+beleza+e+estetica+americana+logo&source=lnms&fbs=AIIjpHydJdUtNKrM02hj0s4nbm4yAFb4PvhjIUcDtaFHkK_tyqfYVx0lCBcCX38sg5LqgWOxH0M2UBtn0NCm1vwPtAX15dLjss1qfE0PtOc6OvjCrzryhk8AM2YF1_ODUNTiK6U57F1vHDsu9YDwLeczR8tFngx8p87wouzcRFxLosAd23fazWxvqeaE2TWE_13a7vmFDSvVpycScun9MnxfAbzx1xCD1A&entry=mc&ved=1t:200715&ictx=111',
   },
 ];
 
@@ -205,6 +163,15 @@ export const restaurantData = [
     imagem: Restaurante06,
     saibamais: 'https://www.instagram.com/papaisalimcampinas',
     local: 'https://maps.app.goo.gl/5WXyfVgE16UdGGwQ8?g_st=iw',
+  },
+  {
+    titulo: `Nyã Baoba`,
+    preco: '$$$',
+    descricao: `A melhor comida casual de Americana, gastronomia brasileira, italiana, francesa e sul-americana`,
+    cupom: '',
+    imagem: Restaurante07,
+    saibamais: 'https://www.nyabaoba.com.br/',
+    local: 'https://maps.app.goo.gl/FHa7SwSk8GPdCJTH8',
   },
 ];
 

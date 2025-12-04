@@ -4,7 +4,7 @@ import Imagem from '../assets/home/obrigado.webp';
 const Obrigado = () => {
   return (
     <div className="md:h-[calc(100dvh-130px-64px)] py-12 w-full flex flex-col justify-center items-center">
-      <div className="w-[80%] bg-[#7A7E5E] rounded-2xl text-white max-w-[1400px] flex-col md:gap-2 lg:gap-10 md:flex-row md:px-4 flex items-center justify-around">
+      <div className="w-[80%] bg-[#0B172C] rounded-2xl text-white max-w-[1400px] flex-col md:gap-2 lg:gap-10 md:flex-row md:px-4 flex items-center justify-around">
         <div className=" md:hidden pt-4 text-center flex flex-col justify-center items-center ">
           <h1 className=" font-titleFont text-center text-5xl">
             Muito Obrigado!!

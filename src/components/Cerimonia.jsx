@@ -1,9 +1,9 @@
 import React from 'react';
-import Imagem from '../assets/home/cerimonia_clovis.webp';
+import Imagem from '../assets/home/cerimonia.webp';
 
 const Cerimonia = () => {
   const Dias = Math.round(
-    (new Date('July 20, 2024').getTime() - new Date().getTime()) /
+    (new Date('February 07, 2026').getTime() - new Date().getTime()) /
       (1000 * 60 * 60 * 24),
   );
 
@@ -17,7 +17,7 @@ const Cerimonia = () => {
           <img
             className="h-[95%] md:h-[90%] min-h-0 rounded-lg object-contain"
             src={Imagem}
-            alt="Casal com seu pet."
+            alt="Thomas e Renata."
           />
         </div>
         <div className="flex flex-col w-[40%] justify-around items-center ">
@@ -29,7 +29,7 @@ const Cerimonia = () => {
               dia
             </div>
             <h2 className="font-titleFont text-3xl lg:text-4xl xl:text-5xl ">
-              20.07.2024
+              07.02.2026
             </h2>
             <div className="font-titleFont text-lg lg:text-xl xl:text-2xl ">
               às

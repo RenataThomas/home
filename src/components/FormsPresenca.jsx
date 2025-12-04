@@ -189,7 +189,7 @@ const FormsPresenca = () => {
         <div className="flex justify-center">
           <button
             type="submit"
-            className="hover:underline w-32 md:w-40 lg:w-48 lg:h-20 h-16 rounded-2xl text-white bg-[#7A7E5E] font-menuFont text-center text-lg md:text-xl lg:text-2xl"
+            className="hover:underline w-32 md:w-40 lg:w-48 lg:h-20 h-16 rounded-2xl text-white bg-[#0B172C] font-menuFont text-center text-lg md:text-xl lg:text-2xl"
           >
             Confirmar Presença
           </button>

@@ -30,8 +30,10 @@ const Navbar = () => {
   return (
     <header
       className={
-        (navBg ? 'bg-[#FAF9F6] border-[#7A7E5E] ' : 'border-transparent ') +
-        'fixed w-screen top-0 z-10 px-6 md:px-10 py-1 backdrop-filter backdrop-blur-md bg-opacity-70 text-[#73754F] text-lg lg:text-xl ' +
+        (navBg
+          ? 'border-[#0B172C] bg-opacity-90 '
+          : 'border-transparent bg-opacity-45 ') +
+        'fixed w-screen top-0 z-10 px-6 md:px-10 py-1 bg-[#FAF9F6] text-[#0B172C] text-lg lg:text-xl ' +
         'select-none transition easy-in-out duration-500 border-b font-menuFont'
       }
     >
@@ -40,7 +42,7 @@ const Navbar = () => {
           <li className="max-md:hidden ">
             <Link
               className=" transition-all duration-1000 hover:underline"
-              to="/"
+              to="/home/"
               onClick={scrollToTop}
             >
               Home
@@ -49,14 +51,14 @@ const Navbar = () => {
           <li className="max-md:hidden ">
             <Link
               className="hover:underline"
-              to="/viagem"
+              to="/home/viagem"
               onClick={scrollToTop}
             >
               Dicas de Viagem
             </Link>
           </li>
           <div className=" h-full">
-            <Link to="/" onClick={scrollToTop}>
+            <Link to="/home/" onClick={scrollToTop}>
               <img
                 src={Logo}
                 alt="Logo do Casamento"
@@ -68,13 +70,17 @@ const Navbar = () => {
             <Link
               onClick={scrollToTop}
               className="hover:underline"
-              to="/presentes"
+              to="/home/presentes"
             >
               Lista de Presentes
             </Link>
           </li>
           <li className="max-md:hidden ">
-            <Link onClick={scrollToTop} className="hover:underline" to="/rsvp">
+            <Link
+              onClick={scrollToTop}
+              className="hover:underline"
+              to="/home/rsvp"
+            >
               RSVP
             </Link>
           </li>
@@ -100,18 +106,22 @@ const Navbar = () => {
             <Link
               onClick={scrollToTop}
               className="hover:underline"
-              to="/viagem"
+              to="/home/viagem"
             >
               Dicas de Viagem
             </Link>
             <Link
               onClick={scrollToTop}
               className="hover:underline"
-              to="/presentes"
+              to="/home/presentes"
             >
               Lista de Presentes
             </Link>
-            <Link onClick={scrollToTop} className="hover:underline" to="/rsvp">
+            <Link
+              onClick={scrollToTop}
+              className="hover:underline"
+              to="/home/rsvp"
+            >
               RSVP
             </Link>
           </div>

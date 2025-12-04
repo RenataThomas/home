@@ -21,7 +21,7 @@ const DressCode = () => {
             </h2>
             <div className="font-titleFont pb-4 text-center text-lg lg:text-xl xl:text-2xl ">
               Sem outras restrições... Só não pode ir de branco né, mulheres?!
-              rs
+              haha
             </div>
             <div className="font-titleFont text-center text-lg lg:text-xl xl:text-2xl ">
               Qualquer dúvida, não hesite em nos procurar!

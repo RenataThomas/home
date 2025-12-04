@@ -94,7 +94,7 @@ const Carousel = (props) => {
                   <Link
                     to={data.saibamais}
                     target="_blank"
-                    className="hover:bg-[#7A7E5E] hover:text-white border bg-white border-[#7A7E5E] font-bold text-[#7A7E5E] w-[90%] h-10 duration-300 mx-4 rounded-lg flex justify-center items-center"
+                    className="hover:bg-[#0B172C] hover:text-white border bg-white border-[#0B172C] font-bold text-[#0B172C] w-[90%] h-10 duration-300 mx-4 rounded-lg flex justify-center items-center"
                   >
                     <BsPlusCircleFill className="mx-1 mb-[.15rem]" />
                     <button>Saiba Mais</button>
@@ -102,7 +102,7 @@ const Carousel = (props) => {
                   <Link
                     to={data.local}
                     target="_blank"
-                    className="hover:bg-[#7A7E5E] hover:text-white border bg-white border-[#7A7E5E] font-bold text-[#7A7E5E] w-[90%] h-10 duration-300 mx-4 rounded-lg flex justify-center items-center"
+                    className="hover:bg-[#0B172C] hover:text-white border bg-white border-[#0B172C] font-bold text-[#0B172C] w-[90%] h-10 duration-300 mx-4 rounded-lg flex justify-center items-center"
                   >
                     <FaLocationDot className="mx-1 mb-[.15rem]" />
                     <button>Localização</button>

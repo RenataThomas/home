@@ -1,5 +1,5 @@
 import React from 'react';
-import Imagem from '../assets/home/alto_das_palmeiras.webp';
+import Imagem from '../assets/home/local.webp';
 import { Link } from 'react-router-dom';
 
 const Local = () => {
@@ -12,20 +12,20 @@ const Local = () => {
           </h1>
           <div className="flex flex-col justify-around items-center ">
             <h2 className="font-titleFont text-3xl lg:text-4xl xl:text-5xl ">
-              Alto das Palmeiras
+              Madero Eventos
             </h2>
             <div className="font-titleFont text-lg lg:text-xl xl:text-2xl ">
               em
             </div>
             <h2 className="font-titleFont pb-4 text-2xl lg:text-3xl xl:text-4xl ">
-              Vinhedo, SP
+              Americana, SP
             </h2>
             <h3 className="font-titleFont pb-2 text-md lg:text-l xl:text-xl ">
-              Estrada Estadual Vinhedo-Louveira, 2693
+              Rodovia Anhanguera, Km 125 s/n - Vila Bertini, Americana - SP
             </h3>
             <Link
               target="_blank"
-              to={'https://goo.gl/maps/qDGp3A9WN442'}
+              to={'https://maps.app.goo.gl/uXqz9onEcwuJde3E7'}
               className="font-titleFont underline text-xl lg:text-2xl xl:text-3xl"
             >
               Mapa
