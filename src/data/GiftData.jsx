@@ -1,18 +1,18 @@
 import Presente01 from '../assets/presentes/presente01.webp';
-// import Presente02 from '../assets/presentes/presente02.webp';
-// import Presente03 from '../assets/presentes/presente03.webp';
-// import Presente04 from '../assets/presentes/presente04.webp';
-// import Presente05 from '../assets/presentes/presente05.webp';
-// import Presente06 from '../assets/presentes/presente06.webp';
-// import Presente07 from '../assets/presentes/presente07.webp';
-// import Presente08 from '../assets/presentes/presente08.webp';
-// import Presente09 from '../assets/presentes/presente09.webp';
-// import Presente10 from '../assets/presentes/presente10.webp';
-// import Presente11 from '../assets/presentes/presente11.webp';
-// import Presente12 from '../assets/presentes/presente12.webp';
-// import Presente13 from '../assets/presentes/presente13.webp';
-// import Presente14 from '../assets/presentes/presente14.webp';
-// import Presente15 from '../assets/presentes/presente15.webp';
+import Presente02 from '../assets/presentes/presente02.webp';
+import Presente03 from '../assets/presentes/presente03.webp';
+import Presente04 from '../assets/presentes/presente04.webp';
+import Presente05 from '../assets/presentes/presente05.webp';
+import Presente06 from '../assets/presentes/presente06.webp';
+import Presente07 from '../assets/presentes/presente07.webp';
+import Presente08 from '../assets/presentes/presente08.webp';
+import Presente09 from '../assets/presentes/presente09.webp';
+import Presente10 from '../assets/presentes/presente10.webp';
+import Presente11 from '../assets/presentes/presente11.webp';
+import Presente12 from '../assets/presentes/presente12.webp';
+import Presente13 from '../assets/presentes/presente13.webp';
+import Presente14 from '../assets/presentes/presente14.webp';
+import Presente15 from '../assets/presentes/presente15.webp';
 
 export const giftData = [
   {
