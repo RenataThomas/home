@@ -64,16 +64,14 @@ export const tripData = [
 export const hotelData = [
   {
     titulo: `NoHotel Premium`,
-    descricao: `Localizado a 4,3Km do Madero Eventos onde será realizada a cerimônia do casamento. Conseguimos um desconto para nossos convidados basta informar que vão ao`,
-    cupom: '"xxxxxxx"',
+    descricao: `Localizado a 4,3Km do Madero Eventos onde será realizada a cerimônia do casamento.`,
     imagem: Hotel01,
     saibamais: 'https://nohotel.com.br/americana',
     local: 'https://maps.app.goo.gl/ZuzHhEapE9CRF36G9',
   },
   {
     titulo: `Hotel Ibis Americana`,
-    descricao: `Localizado a 6,6Km do Madero Eventos onde será realizada a cerimônia do casamento. Conseguimos um cupom de desconto para nossos convidados, que pode ser usado no site do hotel:`,
-    cupom: '"xxxxxxx"',
+    descricao: `Localizado a 6,6Km do Madero Eventos onde será realizada a cerimônia do casamento.`,
     imagem: Hotel02,
     saibamais: 'https://all.accor.com/hotel/9952/index.en.shtml',
     local: 'https://maps.app.goo.gl/JQG8YhKNQw4JXgek6',
@@ -81,7 +79,7 @@ export const hotelData = [
   {
     titulo: `Hotel Florença`,
     descricao: `Localizado a 9,2Km do Madero Eventos onde será realizada a cerimônia do casamento. Conseguimos um desconto para nossos convidados basta informar que vão ao`,
-    cupom: '"xxxxxxx"',
+    cupom: '"RenataEThomas"',
     imagem: Hotel03,
     saibamais: 'https://www.hotelflorenca.com.br/',
     local: 'https://maps.app.goo.gl/dS7c1rxG8y1NBxeSA',
