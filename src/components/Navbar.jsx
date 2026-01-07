@@ -100,7 +100,7 @@ const Navbar = () => {
       <div className=" w-full -top-2">
         <div className={(!navMenu ? ' hidden' : ' md:hidden') + ' px-4 py-1'}>
           <div className=" flex flex-col gap-1 items-end">
-            <Link onClick={scrollToTop} className="hover:underline" to="/">
+            <Link onClick={scrollToTop} className="hover:underline" to="/home/">
               Home
             </Link>
             <Link
