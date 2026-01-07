@@ -62,6 +62,18 @@ const Itinerario = () => {
           <li>
             <div className="flex-start flex items-center pt-3">
               <div className="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-white "></div>
+              <p className="text-md text-neutral-300 ">18h30</p>
+            </div>
+            <div className="mb-2 ms-4 mt-1">
+              <h4 className="mb-1.5 text-white text-xl font-semibold">
+                Abertura do Bar
+              </h4>
+            </div>
+          </li>
+
+          <li>
+            <div className="flex-start flex items-center pt-3">
+              <div className="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-white "></div>
               <p className="text-md text-neutral-300 ">19h30</p>
             </div>
             <div className="mb-2 ms-4 mt-1">
@@ -78,7 +90,25 @@ const Itinerario = () => {
           <li>
             <div className="flex-start flex items-center pt-3">
               <div className="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-white "></div>
-              <p className="text-md text-neutral-300 ">19h30 até o fim</p>
+              <p className="text-md text-neutral-300 ">20h</p>
+            </div>
+            <div className="mb-2 ms-4 mt-1">
+              <h4 className="mb-1.5 text-white text-xl font-semibold">
+                Banda TruaH
+              </h4>
+              <p className="mb-3 text-neutral-300 ">
+                Agora é hora de levantar todo mundo! A banda TruaH assume o
+                palco com um show pra ninguém ficar parado: pop, rock, hits
+                nacionais e internacionais, tudo no ritmo da pista. Se prepara
+                que a festa começa de verdade agora.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div className="flex-start flex items-center pt-3">
+              <div className="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-white "></div>
+              <p className="text-md text-neutral-300 ">22h30 até o fim</p>
             </div>
             <div className="mb-2 ms-4 mt-1">
               <h4 className="mb-1.5 text-white text-xl font-semibold">
